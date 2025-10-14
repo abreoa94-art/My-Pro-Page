@@ -166,7 +166,7 @@ nav,
 
 .dark-theme .scroll__icon:after,
 .dark-theme .link__hover-effect--black:after {
-    border-color: white;
+    background-color: white;
 }
 .dark-theme .link__hover-effect--white:after {
     border-color: black;
@@ -500,15 +500,12 @@ animation: spinner 750ms infinite linear;
 }
 
 .project__list{
-    display: flex;
-
+display: flex;
+flex-direction: column;
 }
 
 .project{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    
+    margin-bottom: 135px;
 }
 
 .project__img{
