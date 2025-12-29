@@ -193,6 +193,7 @@ nav,
     position: fixed;
     bottom: 32px;
     right: 40px;
+    z-index: 1000;
 
 }
 
@@ -559,10 +560,18 @@ flex-direction: column;
     color: white;
     font-size: 20px;
     margin-right: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 200ms ease;
 }
 
 .project__description--para{
     margin: 16px 0;
+}
+
+.project__description--link:hover{
+    transform: scale(1.12);
 }
 
 .project__wrapper:hover .project__description{
